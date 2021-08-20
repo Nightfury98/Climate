@@ -12,7 +12,7 @@ weather.temperature = {
 
 const KELVIN = 273;
 
-const key = "3eec2fc8dd58b7418ed1648e8669ccb1";
+const key = "454cba21447e2624de35fe66c402a92a";
 
 getWeather("delhi");
 function getWeather(city_name){
