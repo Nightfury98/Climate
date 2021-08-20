@@ -16,7 +16,7 @@ const key = "454cba21447e2624de35fe66c402a92a";
 
 getWeather("delhi");
 function getWeather(city_name){
-    let api = `http://api.openweathermap.org/data/2.5/weather?q=${city_name}&appid=${key}`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city_name}&appid=${key}`;
     
     fetch(api)
         .then(function(response){
